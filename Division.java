@@ -10,10 +10,10 @@ public class Division {
         System.out.print("Enter denominator: ");
         double denominator = scanner.nextDouble();
 
-        if (denominator != 0) {
+        do (denominator != 0) {
             double result = numerator / denominator;
             System.out.println("Result: " + result);
-        } else {
+        } while {
             System.out.println("Error: Division by zero is not allowed.");
         }
         
